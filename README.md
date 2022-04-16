@@ -20,5 +20,9 @@ Mnist手写体识别
   eg:输入32 * 32，通过6个5 * 5 卷积核，步长为一，输出6 * 28 * 28((32-5=0)/1+1 = 28),训练参数为1*（5 * 5） * 6 +6=156  
   
 二、letnet网络结构与网络参数：  
-![image](https://github.com/Eason0921/Sanitater/blob/main/img_folder/letnet.jpg)
-训练参数
+![image](https://github.com/Eason0921/Sanitater/blob/main/img_folder/letnet.jpg)  
+1、训练参数  
+    卷积层：卷积核中的参数+偏置项；    
+           eg:(3层 * (3 * 3(大小)) + 1 * 偏置)) * 卷积核个数  
+           输入 6* 14* 14，经过16个5* 5卷积核 步长为1，训练参数为6* (5* 5)* 16+16=2416  
+    池化层：0参数  
