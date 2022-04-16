@@ -21,3 +21,4 @@ Mnist手写体识别
   
 二、letnet网络结构与网络参数：  
 ![image](https://github.com/Eason0921/Sanitater/blob/main/img_folder/letnet.jpg)
+训练参数
